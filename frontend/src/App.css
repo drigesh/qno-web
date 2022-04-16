@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.green-container{
+  background-color: #AFE5DA;
+}
+.features-list{
+  background-color: #008B70;
+}
+.features-content{
+  color: white;
+}
+.jet-brain{
+  font-family: 'JetBrains Mono', monospace;
+}
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
