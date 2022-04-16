@@ -3,9 +3,9 @@ import './App.css';
 function App() {
   return (
     <div className="flex flex-col">
-      <div className="flex flex-col md:flex-row intro-screen items-center mx-10 sm:mx-20 md:mx-30 p-1" style={{"zIndex":"1"}}>
-        <img className="basis-3/4" src="images/main-pic.png" alt="" />
-        <div className="jet-brain text-center md:text-left text-xl sm:text-3xl md:text-6xl basis-1/3">Get the service you want,with <span style={{"color": "#DA3A3A"}}>NO</span> waiting in <span style={{"color": "#DA3A3A"}}>Q</span>ue.</div>  
+      <div className="grid grid-cols-1 md:grid-cols-2 intro-screen items-center mx-10 sm:mx-20 md:mx-40 p-1" style={{"zIndex":"1","marginBottom":"-300px"}}>
+        <div className="basis-1/2"><img className="basis-1/2" src="images/main-pic.png" alt="" /></div>
+        <div className="basis-1/2 jet-brain text-center md:text-left text-xl sm:text-3xl md:text-6xl basis-1/3">Get the service you want,with <span style={{"color": "#DA3A3A"}}>NO</span> waiting in <span style={{"color": "#DA3A3A"}}>Q</span>ue.</div>  
       </div>
       <div className="green-container flex flex-col basis-5/6 my-40 mx-10 sm:mx-15 md:mx-20 pt-80 pb-20 px-2 sm:px-10 md:px-20" style={{"position": "relative"}}>
         <div style={{"position": "absolute","top":"5%","right": "5%"}}><button className="px-8 py-4 bg-red-500 text-white roboto">BOOK NOW</button></div>
