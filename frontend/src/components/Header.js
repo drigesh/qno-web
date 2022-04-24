@@ -13,14 +13,14 @@ export default function Header() {
         </div>
         <div class="col-md-8 col-sm-12 align-items-center order-3 order-md-2">
         <ul class="d-flex flex-row justify-content-center order-3 order-md-2    ">
-            <li class="mx-3  mx-md-3 mx-lg-4 pt-2  hover:underline">Book Now</li>
-            <li class="mx-3  mx-md-3 mx-lg-4 pt-2  hover:underline">Services</li>
-            <li class="mx-3  mx-md-3 mx-lg-4 pt-2  hover:underline">About Us</li>
-            <li class="mx-3  mx-md-3 mx-lg-4 pt-2  hover:underline">Contact Us</li>
+            <li class="mx-3  mx-md-3 mx-lg-4 pt-2  hover:underline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">Book Now</li>
+            <li class="mx-3  mx-md-3 mx-lg-4 pt-2  hover:underline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">Services</li>
+            <li class="mx-3  mx-md-3 mx-lg-4 pt-2  hover:underline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">About Us</li>
+            <li class="mx-3  mx-md-3 mx-lg-4 pt-2  hover:underline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">Contact Us</li>
             </ul>
         </div>
         <div class="col-md-2 col-6 order-md-3 order-2">
-        <div class="align-items-center hover:underline order-2 order-md-3 text-right text-right ">Profile</div>
+        <div class="align-items-center hover:underline order-2 order-md-3 text-right text-right  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">Profile</div>
         </div>
         </div>
         </div>

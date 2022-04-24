@@ -17,4 +17,12 @@
     display: none;
 
   }
-  
+  .rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+.rec.rec-arrow:hover {
+  border-radius: 0%;
+}
+.sc-eCYdqJ.eLPooy.rec.rec-carousel{
+width: 100%;
+}
