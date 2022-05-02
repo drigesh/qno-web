@@ -6,7 +6,7 @@ import classes from "./Footer.module.css";
 export default function Footer1() {
   return (
     <div
-      className={`container-fluid text-center   px-16 xl:px-40 sm:pt-4 md:pb-4 pt-4 md:pt-16 xl:pt-20   `}
+      className={`container-fluid text-center   px-16 xl:px-40 sm:pt-4 md:pb-4 pt-4 md:pt-14 xl:pt-20   `}
       style={{ backgroundColor: "#088E74" }}
     >
       <div class="row mb-6 justify-content-between ">
@@ -40,11 +40,11 @@ export default function Footer1() {
     <div class="col-12 order-2 col-md-4 order-md-3">xyz@gmail.com</div>
    
     <div class="col-12 col-md-8 col-lg-6 offset-lg-2 order-4 order-md-4 mt-2 row d-flex justify-content-around no-gutters  ">
-<a className='col-8 offest-2 offset-sm-3 my-2 col-sm-5 mx-2 flex border-1 rounded-lg  text-2xl py-1 px-2 border-black transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300' href='#w'>
-    <i className="fab fa-google-play my-auto"></i> <p className=' my-auto ml-2'>Play Store </p>
+<a className='col-8 offest-2 offset-sm-3 my-2 col-sm-5 mx-2 flex rounded-full bg-white text-2xl text-left py-1 px-3 border-black transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300' href='#w'>
+    <i className="fab fa-google-play my-auto"></i><div className="my-auto ml-3"><p className="text-sm">Download on the</p><p className='text-bold leading-tight'>Play Store </p></div>
 </a>
-<a className='col-8 offset-2 offset-sm-3 my-2 col-sm-5 mx-2  flex border-1 rounded-lg text-2xl py-1 px-2 border-black transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300' href='#w'>
-    <i className="fab fa-app-store-ios my-auto"></i> <p className=' my-auto ml-2'>App Store </p>
+<a className='col-8 offset-2 offset-sm-3 my-2 col-sm-5 mx-2  flex  rounded-full bg-white text-2xl text-left py-1 px-3 border-black transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300' href='#w'>
+    <i className="fab fa-app-store-ios my-auto"></i><div className="my-auto ml-3"><p className="text-sm  ">Download on the</p> <p className='text-bold leading-tight'>App Store </p></div> 
 </a>
     </div>
   

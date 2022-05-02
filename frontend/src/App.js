@@ -5,6 +5,7 @@ import Carouselservices from './components/Carouselservices';
 import Frontbanner from './components/Frontbanner';
 import Features from './components/Features';
 import Servicesdescription from './components/Servicesdescription';
+import Testimonial from './components/Testimonial';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Servicesdescription/>
     <Carouselservices/>
     <Features/>
+    <Testimonial/>
     <Footer/>
   
     </div>
