@@ -26,7 +26,7 @@ const breakpoints=[
     {width:700 ,itemsToShow:3},
 ]
 
-  return (<div style={{ backgroundImage: "url('../images/testimonials.png')" }} className="pt-16 pb-40 mt-16  bg-contain bg-cover">
+  return (<div style={{ backgroundImage: "url('../images/testimonials.png')" }} className="pt-16 pb-40 mt-16 mb-8 bg-contain bg-cover">
 
   <div className="bg-[#AFE5DAD9]   sm:mx-16 xl:mx-20 pt-12 pb-14 ">
   <div className="text-center"><h1 className="text-xl sm:text-3xl md:text-4xl lg:text-4xl font-bold font-mono">TESTEMONIALS</h1><p className="text-l md:text-xl lg:text-2xl text-base">------by customers------</p></div>
