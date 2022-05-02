@@ -6,7 +6,7 @@ export default function Header() {
 
     return (
         <Fragment>
-        <div className='w-full "row align-items-center bg-[#088E74]" px-16 xl:px-40 sticky top-0 text-xs sm:text-sm md:text-base lg:text-lg pt-2 pb-2 drop-shadow-md container-fluid bg-[#088E74]} z-10' style={{ backgroundColor: "#088E74" }}>
+        <div className='w-full "row align-items-center bg-[#088E74]" px-16 xl:px-40 sticky top-0 z-40 relative text-xs sm:text-sm md:text-base lg:text-lg pt-2 pb-2 drop-shadow-md container-fluid bg-[#088E74]} z-10' style={{ backgroundColor: "#088E74" }}>
       <div class="row align-items-center text-white"> 
         <div class="col-md-2 col-6 text-left  order-1 order-md-1">
         <div class={`${classes.br_100} align-items-center order-1 order-md-1`}><img src={logo} class={`${classes.logo}`} alt="logo"></img></div>

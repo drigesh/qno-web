@@ -26,12 +26,12 @@ const breakpoints=[
     {width:700 ,itemsToShow:3},
 ]
 
-  return (<div style={{ backgroundImage: "url('../images/testimonials.png')" }} className="pt-16 pb-40 mt-16 mb-8 bg-contain bg-cover">
+  return (<div style={{ backgroundImage: "url('../images/testimonials.png')" }} className="pt-16 pb-40 mt-16  bg-contain bg-cover">
 
   <div className="bg-[#AFE5DAD9]   sm:mx-16 xl:mx-20 pt-12 pb-14 ">
   <div className="text-center"><h1 className="text-xl sm:text-3xl md:text-4xl lg:text-4xl font-bold font-mono">TESTEMONIALS</h1><p className="text-l md:text-xl lg:text-2xl text-base">------by customers------</p></div>
     <div
-      className="grid grid-cols-4 gap-3 text-left mt-8 px-2 md:mx-40 xl:px-40 grid-rows-2 "
+      className="grid grid-cols-4 gap-3 text-left mt-8 px-2 md:mx-20 lg:mx-16 xl:px-40 grid-rows-2 "
     >
     
       <div className=" row-span-2 col-end-5 bg-[#EAEAEA] col-span-5 lg:col-span-2 p-4 flex">
@@ -65,7 +65,7 @@ const breakpoints=[
         </div>
         <div className="pl-4  text-sm md:text-base"><p className="text-[#737373] font-bold">very thankful for being an absolute saviour.I use it whenever I head to
         the salon jkfdsjkd dfshhjdf odsh oidhhf diof odeisf oisfisd</p>
-        <div className="flex flex-verticle mt-3">
+        <div className="flex flex-verticle mt-3 md:mt-3">
         <img src={star} style={{height:"22px",width:"22px"}} className="mx-2" alt="fdsjl"></img>
         <img src={star} style={{height:"22px",width:"22px"}} className="mx-2" alt="fdsjl"></img>
         <img src={star} style={{height:"22px",width:"22px"}} className="mx-2" alt="fdsjl"></img>
@@ -113,7 +113,7 @@ const breakpoints=[
         </div>
       </div>
     </div>
-    <div className="mt-28 text-center px-2 md:mx-40 pb-12 xl:px-40">
+    <div className="mt-12 md:mt-28 text-center px-2 md:mx-40 pb-12 xl:px-40">
     <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-4xl pt-2 sm:pt-12 font-bold font-mono" >OUR TEAM</h1>
     <h6 className="pb-8 text-l md:text-xl lg:text-2xl text-base">--to make it happen--</h6>
     <Carousel className="px-2 md:px-12 lg:px-24" breakPoints={breakpoints} enableAutoPlay autoPlaySpeed={3000} >
