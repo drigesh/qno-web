@@ -12,6 +12,10 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
     },
+    checkin: {
+        type: Object,
+        default: null,
+    },
     token: {
         type: String,
     },
