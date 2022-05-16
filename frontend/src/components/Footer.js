@@ -13,7 +13,7 @@ export default function Footer1() {
         <div class="col-md-12 col-lg-1 col-12 d-flex justify-content-center p-0">
           <img src={logo} alt="no" class={`${classes.logo}`}></img>
         </div>
-        <div class={`col-12 my-2 col-lg-5 text-left `}>
+        <div class={`col-12 my-2 col-lg-5 text-lg-start text-center `}>
           Aims to become India's leading chain of salons/spas,enhance customer
           Satisfaction.
         </div>
@@ -48,31 +48,7 @@ export default function Footer1() {
 <a className='col-8 offset-2 offset-sm-3 my-2 col-sm-5 mx-2  flex  rounded-full bg-white text-2xl text-left py-1 px-3 border-black' href='#w'>
     <i className="fab fa-app-store-ios my-auto"></i><div className="my-auto ml-3"><p className="text-sm  ">Download on the</p> <p className='text-bold leading-tight'>App Store </p></div> 
 </a>
-    </div>
-  
-
-        <div class="col-12 col-md-8 col-lg-6 offset-lg-2 order-4 order-md-4 mt-2 row d-flex justify-content-around no-gutters  ">
-          <a
-            className="col-8 offest-2 offset-sm-3 my-2 col-sm-5 mx-2 flex rounded-full bg-white text-2xl text-left py-1 px-3 border-black transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300"
-            href="#w"
-          >
-            <i className="fab fa-google-play my-auto"></i>
-            <div className="my-auto ml-3">
-              <p className="text-sm">Download on the</p>
-              <p className="text-bold leading-tight">Play Store </p>
-            </div>
-          </a>
-          <a
-            className="col-8 offset-2 offset-sm-3 my-2 col-sm-5 mx-2  flex  rounded-full bg-white text-2xl text-left py-1 px-3 border-black transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300"
-            href="#w"
-          >
-            <i className="fab fa-app-store-ios my-auto"></i>
-            <div className="my-auto ml-3">
-              <p className="text-sm  ">Download on the</p>{" "}
-              <p className="text-bold leading-tight">App Store </p>
-            </div>
-          </a>
-        </div>
+    </div> 
       </div>
 
       <div class={`row ${classes.padlicenseb}`}>

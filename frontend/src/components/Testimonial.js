@@ -1,8 +1,6 @@
 import React from "react";
 import Carousel from 'react-elastic-carousel';
 import Cardservices from "./Cardservices";
-
-import tcardimg from "../images/tcardimg.png";
 import t1 from "../images/t1.jpeg";
 import t2 from "../images/t2.jpeg";
 import t3 from "../images/t3.jpeg";

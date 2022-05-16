@@ -42,7 +42,7 @@ export default function Header() {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center text-white text-base font-bold justify-content-between ">
+            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center text-white text-base -bold justify-content-between ">
             <li className=" my-6 uppercase">
             <a href="/">
             <img src={userimage} class={`${classes.userimage}`} alt="userimage"></img>
