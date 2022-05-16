@@ -9,7 +9,7 @@ export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
   return (
-    <div className="flex items-center justify-between  py-8 bg-[#088E74] px-12 xl:px-40 sticky top-0 z-40 text-xs  sm:text-sm md:text-base text-white lg:text-lg pt-2 pb-2 drop-shadow-md container-fluid">
+    <div className="flex items-center justify-between  py-8 bg-[#088E74] px-8 md:px-16 xl:px-40 sticky top-0 z-40 text-xs  sm:text-sm md:text-base text-white lg:text-lg pt-2 pb-2 drop-shadow-md container-fluid">
       <a href="/">
       <img src={logo} class={`${classes.logo}`} alt="logo"></img>
       </a>
