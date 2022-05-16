@@ -5,3 +5,7 @@
 .br_100{
     border-radius: 100%;
 }
+.userimage{
+    width: 55px;
+    height: 55px;
+}
