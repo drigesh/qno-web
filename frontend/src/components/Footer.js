@@ -11,10 +11,12 @@ export default function Footer1() {
     >
       <div class="row mb-6 justify-content-between ">
         <div class="col-md-12 col-lg-1 col-12 d-flex justify-content-center p-0">
-          <img src={logo} alt='no' class={`${classes.logo}`}></img>
+          <img src={logo} alt="no" class={`${classes.logo}`}></img>
         </div>
-        <div class={`col-12 my-2 col-lg-5 text-left `}>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequunt dfhjaf sjfd
- </div>
+        <div class={`col-12 my-2 col-lg-5 text-left `}>
+          Aims to become India's leading chain of salons/spas,enhance customer
+          Satisfaction.
+        </div>
         <div class="col-12 col-lg-5   mt-4">
         <div className='font- d-flex   flex-lg-row justify-content-around'>
                             <a className={`block text-center ${classes.font_poppins}`}href='#w'> About </a>
@@ -49,11 +51,35 @@ export default function Footer1() {
     </div>
   
 
-    </div>
+        <div class="col-12 col-md-8 col-lg-6 offset-lg-2 order-4 order-md-4 mt-2 row d-flex justify-content-around no-gutters  ">
+          <a
+            className="col-8 offest-2 offset-sm-3 my-2 col-sm-5 mx-2 flex rounded-full bg-white text-2xl text-left py-1 px-3 border-black transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300"
+            href="#w"
+          >
+            <i className="fab fa-google-play my-auto"></i>
+            <div className="my-auto ml-3">
+              <p className="text-sm">Download on the</p>
+              <p className="text-bold leading-tight">Play Store </p>
+            </div>
+          </a>
+          <a
+            className="col-8 offset-2 offset-sm-3 my-2 col-sm-5 mx-2  flex  rounded-full bg-white text-2xl text-left py-1 px-3 border-black transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300"
+            href="#w"
+          >
+            <i className="fab fa-app-store-ios my-auto"></i>
+            <div className="my-auto ml-3">
+              <p className="text-sm  ">Download on the</p>{" "}
+              <p className="text-bold leading-tight">App Store </p>
+            </div>
+          </a>
+        </div>
+      </div>
 
-    <div class={`row ${classes.padlicenseb}`}>
-    <div class="col-md-12 ">© Copyright 2022 @ The Clippp Pvt Ltd | All rights reserved</div>
-    </div>
+      <div class={`row ${classes.padlicenseb}`}>
+        <div class="col-md-12 ">
+          © Copyright 2022 @ QNO Pvt Ltd | All rights reserved
+        </div>
+      </div>
     </div>
   );
 }
