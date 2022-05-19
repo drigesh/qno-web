@@ -1,3 +1,7 @@
 /* .pt-161{
     padding-top: 161px;
 } */
+
+body input:focus{
+    outline: none;
+}

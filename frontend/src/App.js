@@ -1,24 +1,22 @@
 import './App.css';
-import Footer from './components/Footer';
-import Carouselservices from './components/Carouselservices';
-import Frontbanner from './components/Frontbanner';
-import Features from './components/Features';
-import Servicesdescription from './components/Servicesdescription';
-import Testimonial from './components/Testimonial';
-import Checkin from './components/Checkin';
-import HamburgerHeader from './components/HamburgerHeader';
+import DownloadPage from './components/DownloadPage';
+import FeaturesPage from './components/FeaturesPage';
+import FrontPage from './components/FrontPage';
+import Header from './components/Header';
+import OwnSalonPage from './components/OwnSalonPage';
+import ShopsPage from './components/ShopsPage';
+
 
 function App() {
   return (
     <div className="App">
-    <HamburgerHeader/>
-    <Frontbanner/>
-    <Servicesdescription/>
-    <Carouselservices/>
-    <Features/>
-    <Checkin/>
-    <Testimonial/>
-    <Footer/>
+
+    <Header />
+    <FrontPage />
+    <ShopsPage />
+    <FeaturesPage />
+    <DownloadPage />
+    <OwnSalonPage />
   
     </div>
   );

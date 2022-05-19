@@ -6,21 +6,17 @@ module.exports = {
     extend: {
       colors:{
         footercolor: '#088E74',
-        themeColor:{
-          50:'#cde5fe',
-          100:'#9bcafd',
-          200:'#69b0fc',
-          300:'#3796fb',
-          400:'#056fe1',
-          500:'#0463c8',
-          600:'#0456af',
-          700:'#0353a7',
-          800:'#034a96',
-          900:'#033e7d'
-        }
+        themeColor: '#00b894',
+
       },
       height:{
-        68:'17rem'
+        68:'17rem',
+        101:'25rem',
+        120:'30rem',
+        136:'34rem'
+      },
+      width:{
+        // 74:'17.50rem'
       }
     },
   },
