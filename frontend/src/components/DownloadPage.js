@@ -14,12 +14,12 @@ export default function DownloadPage() {
             <div className='flex my-5'>
             <a href='http://qnoapp.com'>
                 <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn-RsGSnFAr00Dzhk6MZXlXQcC7vVZLaSxEg&usqp=CAU'
-                className='w-40 h-12 '
+                className='w-40 h-12 rounded-md'
                 />
             </a>
             <a href='http://qnoapp.com'>
                 <img src='https://e7.pngegg.com/pngimages/316/826/png-clipart-etazhi-app-store-logo-brand-font-google-play-apple-store-text-logo.png'
-                className='w-40 h-12 mx-4'
+                className='w-40 h-12 mx-4 rounded-md'
                 />
             </a>
             </div>

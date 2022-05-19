@@ -7,6 +7,8 @@ module.exports = {
       colors:{
         footercolor: '#088E74',
         themeColor: '#00b894',
+        darkTheme:'#01876d',
+        navy:'#0e376e'
 
       },
       height:{

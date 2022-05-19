@@ -13,13 +13,13 @@ export default function OwnSalonPage() {
             </div>
             {/* <div></div> */}
             <div className='flex my-5'>
-            <a href='http://qnoapp.com' className='bg-green-600 p-2 rounded-md text-white font-bold'>
+            <button href='http://qnoapp.com' className='bg-darkTheme py-2 px-3 rounded-md text-white font-bold'>
                 Parner with Us
-            </a>
+            </button>
             </div>
         </div>
         <div className='w-5/12'>
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2XIbQMkuCXOSKPHyBn34oYve_osbNDM2nug&usqp=CAU' 
+            <img src='https://www.clipartmax.com/png/small/184-1843991_barber-shop-icon-beauty-salon.png' 
                 className='w-full h-112'
             />
         </div>

@@ -5,7 +5,8 @@ import FrontPage from './components/FrontPage';
 import Header from './components/Header';
 import OwnSalonPage from './components/OwnSalonPage';
 import ShopsPage from './components/ShopsPage';
-
+import Footer from './components/Footer';
+import StatsPage from './components/StatsPage';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
     <ShopsPage />
     <FeaturesPage />
     <DownloadPage />
+    <StatsPage />
     <OwnSalonPage />
+    <Footer />
   
     </div>
   );
