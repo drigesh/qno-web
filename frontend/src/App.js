@@ -10,7 +10,7 @@ import StatsPage from './components/StatsPage';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App relative">
 
     <Header />
     <FrontPage />

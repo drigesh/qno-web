@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='bg-darkTheme w-full text-white '>
+    <div className='bg-gradient-to-t from-themeColor to-darkTheme w-full text-white '>
         {/* <div className='w-9/12 mx-auto py-3 flex justify-between'>
             <div className='w-3/12'>
                 <img src='./images/qno-trans-white.png' className='mx-auto w-32'/>

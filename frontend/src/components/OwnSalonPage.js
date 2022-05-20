@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function OwnSalonPage() {
   return (
+      <div className='bg-slate-100 '>
     <div className='w-9/12 mx-auto flex'>
         <div className='w-7/12 my-auto'>
             <div className='text-5xl font-bold my-4'>
@@ -19,10 +20,11 @@ export default function OwnSalonPage() {
             </div>
         </div>
         <div className='w-5/12'>
-            <img src='https://www.clipartmax.com/png/small/184-1843991_barber-shop-icon-beauty-salon.png' 
-                className='w-full h-112'
+            <img src='./images/partner-shop-img.png' 
+                className='w-10/12 mx-auto'
             />
         </div>
+    </div>
     </div>
   )
 }

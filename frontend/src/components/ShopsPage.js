@@ -7,7 +7,7 @@ import ShopsCarousel from './ShopsCarousel';
 export default function ShopsPage(props) {
     
   return (
-    <div className='h-101 py-4 '>
+    <div className='bg-slate-50 py-4 '>
 
     <div className=''>
 
