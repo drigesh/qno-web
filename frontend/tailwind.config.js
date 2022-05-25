@@ -14,11 +14,13 @@ module.exports = {
       height:{
         68:'17rem',
         101:'25rem',
+        104:'26rem',
         120:'30rem',
         136:'34rem'
       },
       width:{
         // 74:'17.50rem'
+        136:'34rem'
       }
     },
   },
