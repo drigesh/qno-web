@@ -73,7 +73,7 @@ router.get("/cancel", async (req, res) => {
         }
         res.status(200).json({ msg: "Successfully cancelled" });
     } catch (err) {
-        res.statu(500).json({ error: err });
+        res.status(500).json({ error: err });
     }
 });
 
