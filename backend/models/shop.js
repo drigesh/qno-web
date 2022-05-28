@@ -5,12 +5,25 @@ const shopSchema = new mongoose.Schema({
         type: String,
         default: null,
     },
+    description: {
+        type: String,
+        default: null,
+    },
+    contact: {
+        type: String,
+        default: null,
+    },
     location: {
         type: String,
         default: null,
     },
-    facilities: {
+    ratings: {
+        type: String,
+        default: null,
+    },
+    services: {
         type: Array,
+        default: null,
     },
     customers: {
         type: Array,

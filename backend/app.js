@@ -3,8 +3,8 @@ require("./config/db");
 const express = require("express");
 const cookieParser = require("cookie-parser");
 
+const userRouter = require("./routes/user");
 const authRouter = require("./routes/auth");
-const indexRouter = require("./routes/index");
 const shopRouter = require("./routes/shop");
 const checkinRouter = require("./routes/checkin");
 
@@ -14,9 +14,9 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/", indexRouter);
-app.use("/auth", authRouter);
-app.use("/shops", shopRouter);
-app.use("/checkin", checkinRouter);
+app.use("/api/user", userRouter);
+app.use("/api/auth", authRouter);
+app.use("/api/shops", shopRouter);
+app.use("/api/checkin", checkinRouter);
 
 module.exports = app;
