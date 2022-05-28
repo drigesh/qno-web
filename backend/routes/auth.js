@@ -6,13 +6,7 @@ const jwt = require("jsonwebtoken");
 
 router.post("/register", async (req, res) => {
     try {
-        const { name, phone, password, cpassword } = req.body;
-        if (!name || !phone || !password || !cpassword) {
-            return res.status(400).json({ error: "All fields are required" });
-        }
-        if (password != cpassword) {
-            return res.status(400).json({ error: "Passwords do not match" });
-        }
+        const { name, phone, password } = req.body;
         const userExists = await User.findOne({ phone });
         if (userExists) {
             return res.status(409).json({ error: "Phone number already exists" });
@@ -40,9 +34,6 @@ router.post("/register", async (req, res) => {
 router.post("/login", async (req, res) => {
     try {
         const { phone, password } = req.body;
-        if (!phone || !password) {
-            return res.status(400).json({ error: "All fields are required" });
-        }
         const user = await User.findOne({ phone });
         if (!user) {
             return res.status(400).json({ error: "Invalid Credentials" });
