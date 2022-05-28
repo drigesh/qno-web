@@ -7,7 +7,7 @@ export default function StatsPage() {
 
         <div className='w-full sm:w-4/12 '>
             <div>
-            <i class="fa-solid fa-user text-2xl"></i>
+            <i className="fa-solid fa-user text-2xl"></i>
             {/* <i className="fa-regular fa-user text-xl"></i> */}
             </div>
             <p className='text-5xl font-bold mt-3 mb-2 sm:border-r-2 border-white'> 153+ </p>
@@ -19,7 +19,7 @@ export default function StatsPage() {
             <p className='text-xl'> Salons </p>
         </div>
         <div className='w-full sm:w-4/12'>
-            <div><i class="fa-solid fa-comments text-2xl"></i></div>
+            <div><i className="fa-solid fa-comments text-2xl"></i></div>
             <p className='text-5xl font-bold mt-3 mb-2'> 54+ </p>
             <p className='text-xl'> Reviews </p>
         </div>

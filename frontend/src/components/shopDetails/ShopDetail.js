@@ -2,8 +2,8 @@ import React from 'react'
 
 
  
-const full_star = '<i class="fa-solid fa-star"></i>';
-const half_star = '<i class="fa-solid fa-star-half"></i>' 
+const full_star = '<i className="fa-solid fa-star"></i>';
+const half_star = '<i className="fa-solid fa-star-half"></i>' 
 const starRatings = num => {
         var stars = '';
         for(let i=1;i<=num;i+=1){
@@ -23,7 +23,7 @@ export default function ShopDetail(props) {
         <div className='flex justify-evenly md:justify-between py-2 md:w-10/12 mx-auto'>
             <div className='md:flex '>
                 <p className='text-2xl font-bold my-auto '>{props.name}</p>
-                <p className='text-xl md:mx-3 font-bold my-auto'><i class="fa-solid fa-star mx-2 text-yellow-500"></i>{props.rating}</p>
+                <p className='text-xl md:mx-3 font-bold my-auto'><i className="fa-solid fa-star mx-2 text-yellow-500"></i>{props.rating}</p>
             </div>
 
             <div className='flex text-md place-items-center font-bold'>
@@ -47,10 +47,10 @@ export default function ShopDetail(props) {
                                 <p className='my-1 text-md'>{service.desc}</p>
                             </div>
                             <div className='w-2/12 my-auto'>
-                            <i class="fa-solid fa-clock mx-2"></i>{service.time}
+                            <i className="fa-solid fa-clock mx-2"></i>{service.time}
                             </div>
                             <div className='w-2/12 my-auto'>
-                            <i class="fa-solid fa-indian-rupee-sign mx-2"></i>{service.price}
+                            <i className="fa-solid fa-indian-rupee-sign mx-2"></i>{service.price}
                             </div>
                         </div>
                     )
@@ -65,9 +65,9 @@ export default function ShopDetail(props) {
                     return (
                         <div className='my-2 p-2 border-b'>
                             <div className=''>
-                                <i class="fa-solid fa-star mr-2 text-yellow-500"></i>{review.star}
+                                <i className="fa-solid fa-star mr-2 text-yellow-500"></i>{review.star}
                                 {/* {starRatings(review.star)} */}
-                                {/* <i class="fa-solid fa-star-half"></i> */}
+                                {/* <i className="fa-solid fa-star-half"></i> */}
                             </div>
                             <div className='text-md'>
                                 {review.desc}

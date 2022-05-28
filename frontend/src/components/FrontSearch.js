@@ -19,7 +19,7 @@ export default function FrontSearch() {
     <div className='my-8 w-11/12 md:w-6/12 mx-auto flex h-12 rounded-md bg-white shadow-sm'>
     <div className='w-4/12 my-auto flex relative' onClick={onClickLocation} >
 
-        <i class="fa-solid fa-location-dot text-xl mx-3 text-themeColor"></i>
+        <i className="fa-solid fa-location-dot text-xl mx-3 text-themeColor"></i>
 
         <input className='rounded-l-md' placeholder='Location'></input>
 
@@ -34,7 +34,7 @@ export default function FrontSearch() {
     <p className='my-auto text-2xl'> | </p>
     <div className='w-8/12 my-auto flex relative' onClick={onClickService}>
         {/* <FiSearch className=''/> */}
-        <i class="fa-solid fa-magnifying-glass text-xl mx-3 text-themeColor"></i>
+        <i className="fa-solid fa-magnifying-glass text-xl mx-3 text-themeColor"></i>
         <input className='w-8/12 rounded-r-md' placeholder='Services'></input>
 
         <div className={`absolute bg-gray-50 rounded-b-md top-9 left-10 max-w-11/12 text-md ${dropDownService ? "visible" : "hidden"} z-10`} ref={dropDownServiceRef}>

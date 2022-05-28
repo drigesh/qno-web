@@ -11,7 +11,7 @@ export default function DownloadPage() {
             <div className='text-xl w-11/12'>
             Check the estimated wait time and add your name to the online waiting queue or book an appointment for top-rated salons near you.
             </div>
-            {/* <div></div> */}
+            
             <div className='flex my-5'>
             <a href='http://qnoapp.com'>
                 <img src='https://coindcx.com/assets/new-home/logos/android_dark_download.svg'

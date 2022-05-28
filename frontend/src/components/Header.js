@@ -9,7 +9,7 @@ export default function Header(props) {
             </div>
             : 
             <div className='w-3/12 m-3 flex '>
-            <i class="fa-solid fa-circle-down my-auto mx-2 text-md"></i>
+            <i className="fa-solid fa-circle-down my-auto mx-2 text-md"></i>
             <p className=' hover:underline text-sm'>Get the app</p>
             </div>}
             <div className='w-9/12 flex justify-end '>
