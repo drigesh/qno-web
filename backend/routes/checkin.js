@@ -3,6 +3,7 @@ const router = express.Router();
 const Shop = require("../models/shop");
 const User = require("../models/user");
 const jwt = require("jsonwebtoken");
+const verifyToken = require("../middlewares/auth");
 
 const getIdx = (customers, id) => {
     for (let i = 0; i < customers.length; i++) {
@@ -13,7 +14,7 @@ const getIdx = (customers, id) => {
     return -1;
 };
 
-router.get("/:id", async (req, res) => {
+router.get("/:id", verifyToken, async (req, res) => {
     try {
         const id = req.params.id;
         const shop = await Shop.findById(id);
@@ -53,7 +54,7 @@ router.get("/:id", async (req, res) => {
     }
 });
 
-router.get("/cancel", async (req, res) => {
+router.get("/cancel", verifyToken, async (req, res) => {
     try {
         const token = req.cookies.usertoken;
         const decoded = jwt.verify(token, process.env.TOKEN_KEY);
