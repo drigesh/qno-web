@@ -8,7 +8,7 @@ import {
 import HomePage from './HomePage'
 import ContactUs from './ContactUs.js';
 import AboutUs from './AboutUs.js';
-import ShopDetails from './ShopDetails';
+import SelectedShop from './SelectedShop';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
-          <Route path="/shop" element={<ShopDetails />} />
+          <Route path="/shop/:id" element={<SelectedShop />} />
         </Routes>
       </BrowserRouter>
     </div>

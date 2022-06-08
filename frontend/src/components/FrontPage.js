@@ -1,11 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import FrontSearch from './FrontSearch'
-import {useSelector} from 'react-redux';
+import { useDispatch, useSelector } from "react-redux";
+import axios from 'axios';
+import { setFrontPageData } from "../redux/actions/productActions";
 
 
 export default function FrontPage() {
   const state = useSelector(state => state);
-  console.log(state);
+  // console.log('show state',state);
+
+  const dispatch = useDispatch();
+  const fetchDetails = async () => {
+    const response = await axios.get('https://jsonplaceholder.typicode.com/todos/1')
+    .catch(err => {
+      console.log(err);
+    })
+    dispatch(setFrontPageData(response.data));
+    // console.log(response.data);
+    // console.log("this is reducer state",state);
+  }
+
+  useEffect(() => {
+    fetchDetails();
+  },[])
+
   return (
     <div className='w-full text-center'>
         <div className='w-full absolute'>

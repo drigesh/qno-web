@@ -9,7 +9,7 @@ export const shops_details = [
         location:'khokha',
         last_time: 3000, // in seconds    (add current time in seconds + )
         rating:4.5,
-        services:[
+        services:
             {
                 hair:{
                     name:'hair cut',
@@ -22,7 +22,7 @@ export const shops_details = [
                     price:30
                 }
             }
-        ],
+        ,
         reviews:[
             {
                 name:'customer 1',
@@ -54,7 +54,7 @@ export const shops_details = [
         location:'khokha',
         last_time:4260,
         rating:4.7,
-        services:[
+        services:
             {
                 hair:{
                     name:'hair cut',
@@ -72,7 +72,7 @@ export const shops_details = [
                     price:80
                 }
             }
-        ],
+        ,
         reviews:[
             {
                 name:'customer 1',
@@ -103,7 +103,7 @@ export const shops_details = [
         location:'market_complex',
         last_time:9000,
         rating:4.7,
-        services:[
+        services:
             {
                 hair:{
                     name:'hair cut',
@@ -125,8 +125,7 @@ export const shops_details = [
                     time:35,
                     price:120
                 }
-            }
-        ],
+            },
         reviews:[
             {
                 name:'customer 1',
@@ -358,3 +357,9 @@ export const orders = {
 }
 
 export const current_time = 600 //in seconds.
+
+export const locations = ['khokha','market_complex']
+
+export const services = ['hair', 'beard', 'hair color','bleach']
+
+export const shopNames = ['1','2','3','4','5','6']

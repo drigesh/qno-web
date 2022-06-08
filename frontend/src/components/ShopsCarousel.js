@@ -1,10 +1,15 @@
 import React from 'react'
 import ShopCard from './ShopCard'
 import Carousel from 'react-multi-carousel';
+import { useDispatch, useSelector } from "react-redux";
+import { current_time } from '../data/data';
+
 
 export default function ShopsCarousel(props) {
-
-
+  const state = useSelector(state => state);
+  const shopsData = state.shopsData;
+  const shopArray = Object.values(shopsData);
+  console.log("this is shopsData",shopsData);
     const responsive = {
         desktop: {
           breakpoint: { max: 3000, min: 1500 },
@@ -49,12 +54,11 @@ export default function ShopsCarousel(props) {
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
             >
-            <ShopCard name='Khoka 1' img='https://picsum.photos/400' wtime='10 min' ratings='4.5' add='Khokha 1'/>
-            <ShopCard name='Khokha 2' img='https://picsum.photos/400' wtime='10 min' ratings='4.5' add='Khokha 2'/>
-            <ShopCard name='Khokha 3' img='https://picsum.photos/400' wtime='10 min' ratings='4.5' add='Khokha 3'/>
-            <ShopCard name='Market Complex 1' img='https://picsum.photos/400' wtime='10 min' ratings='4.5' add='Market Complex 1'/>
-            <ShopCard name='Market Complex 2' img='https://picsum.photos/400' wtime='10 min' ratings='4.5' add='Market Complex 2'/>
-            <ShopCard name='Market Complex 3' img='https://picsum.photos/400' wtime='10 min' ratings='4.5' add='Market Complex 3'/>
+            {shopArray.map((shop,key) => {
+              const wt = (shop.last_time - current_time)/60;
+              return(<ShopCard name={shop.name} img={shop.img} wtime={wt} ratings={shop.rating} add={shop.add} key={key} id={shop.id}/>)
+            })}
+            
         </Carousel>;
 
     </div>

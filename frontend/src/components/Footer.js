@@ -7,7 +7,7 @@ export default function Footer() {
         <div className='w-9/12 sm:w-11/12 md:w-9/12 mx-auto text-center flex-wrap flex pt-6 justify-center'>
 
             <div className='w-full sm:w-4/12 '>
-                <img src='./images/qno-trans-white.png' className=' w-32 mx-auto'/>
+                <img src='/images/qno-trans-white.png' className=' w-32 mx-auto'/>
                 <div className='mx-2 my-3'>
                     Qno is one stop destination for all your salon needs. Use QNO for hassle free Experience.
                 </div>

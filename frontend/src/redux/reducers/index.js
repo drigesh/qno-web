@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
-import { productsReducer, selectedProductsReducer } from "./productsReducer";
+import { setFrontPageDataReducer, setShopsDataReducer } from "./reducers";
 const reducers = combineReducers({
-  allProducts: productsReducer,
-  product: selectedProductsReducer,
+  frontPageData: setFrontPageDataReducer,
+  shopsData: setShopsDataReducer
 });
 export default reducers;

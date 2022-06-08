@@ -7,6 +7,7 @@ import OwnSalonPage from './components/OwnSalonPage';
 import ShopsPage from './components/ShopsPage';
 import Footer from './components/Footer';
 import StatsPage from './components/StatsPage';
+import CheckedInPopUp from './components/CheckedInPopUp';
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
     <StatsPage />
     <OwnSalonPage />
     <Footer />
+    <CheckedInPopUp />
     </div>
   );
 }

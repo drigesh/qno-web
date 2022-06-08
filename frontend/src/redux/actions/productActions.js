@@ -13,3 +13,17 @@ export const selectedProduct = (product) => {
     payload: product,
   };
 };
+
+export const setFrontPageData = (data) => {
+  return {
+    type: ActionTypes.SET_FRONTPAGE_DATA,
+    payload:data
+  }
+}
+
+export const setShopsData = (data) => {
+  return {
+    type: ActionTypes.SET_SHOPS_DATA,
+    payload:data
+  }
+}
